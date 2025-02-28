@@ -1,0 +1,42 @@
+/* Dropdown container */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+/* Hide dropdown menu by default */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid black;
+    min-width: 150px;
+    padding: 10px 0;
+    z-index: 100;
+    flex-direction: column;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+/* Dropdown items */
+.dropdown-menu li {
+    padding: 8px 15px;
+    display: block;
+    white-space: nowrap;
+}
+
+.dropdown-menu li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+}
+
+.dropdown-menu li a:hover {
+    background-color: lightgray;
+}
