@@ -1,9 +1,10 @@
 header {
     background-image: linear-gradient(to bottom right, #4b2e83, #85754d);
-    padding: 20px;
+    padding: 25px;
     text-align: center;
     color: whitesmoke;
     position: relative;
+    font-size: 28px;
 }
 
 /* Header navigation */
@@ -13,7 +14,7 @@ header {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 30px; /* Fixed misplaced property */
+    gap: 20px;
 }
 
 .header-nav ul li {
@@ -22,9 +23,10 @@ header {
 }
 
 .header-nav ul li a {
-    color: whitesmoke;
+    color: blue;
     text-decoration: none;
     padding: 10px;
+    font-size: 25px;
 }
 
 .header-nav ul li a:hover {
